@@ -9,7 +9,7 @@ function calculadoraLitros() {
         const areaPared = parseFloat(prompt("Ingrese el área total de paredes a pintar en metros cuadrados:"));
         const manosPintura = parseInt(prompt("Ingrese la cantidad de manos de pintura que desea aplicar:"));
 
-        if (isNaN(areaParedes) || isNaN(capasPintura) || areaParedes <= 0 || capasPintura <= 0) {
+        if (isNaN(areaPared) || isNaN(manosPintura) || areaPared <= 0 || manosPintura <= 0) {
             alert("Por favor, ingrese valores numéricos válidos y mayores que cero.");
             continue;
         }
